@@ -3,16 +3,16 @@
     <div class="main">
       <b-row>
         <b-col>
-          <p>
-            I'm actively involved in contributing to open source projects.
-          </p>
-        </b-col>
-        <b-col>
         <vue-github
           text=""
           showCalendar=true
           username="emdupre"
         />
+        </b-col>
+        <b-col>
+          <p>
+            Additionally, I'm actively involved in contributing to open source projects.
+          </p>
         </b-col>
       </b-row>
     </div>
@@ -32,7 +32,7 @@ export default {
   data: function() {
     return {
       showCalendar: true,
-      text: " ",
+      text: "",
       username: "emdupre"
     };
   }

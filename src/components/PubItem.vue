@@ -58,15 +58,22 @@ export default {
     // console.log(this.doi);
     let dimensionScript = document.createElement('script')
     dimensionScript.setAttribute('src', 'https://badge.dimensions.ai/badge.js')
+    dimensionScript.async = true
     document.head.appendChild(dimensionScript)
   },
   methods: {
     getCrossref(doi) {
       const options = {
+          credentials: 'omit',
           method: 'GET',
           headers: new Headers({'accept': 'application/json'})
       };
-      fetch(`https://api.crossref.org/works/${doi}`, options)
+      const proxy =
+        this.proxy ||
+        function(url) {
+          return "https://cors-anywhere.herokuapp.com/" + url;
+        };
+      fetch(proxy(`https://api.crossref.org/works/${doi}`), options)
       .then((resp) => resp.json())
       .then(data => {
         this.authorList = data.message.author;
