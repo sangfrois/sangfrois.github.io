@@ -6,8 +6,7 @@
       </div>
       <div v-else class="container-fluid">
         <b-list-group>
-          <b-list-group-item v-for="work in works"
-                             vbind:key="work['work-summary'][0]['display-index']">
+          <b-list-group-item v-for="(work, index) in works" :key="index">
             <PubItem
             :pub="work['work-summary'][0]"
             :doi="work['work-summary'][0]['external-ids']['external-id'][0]['external-id-value']">

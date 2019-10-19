@@ -3,16 +3,20 @@
     <div class="main">
       <b-row>
         <b-col>
-        <vue-github
-          text=""
-          showCalendar=true
-          username="emdupre"
-        />
+          <div class="d-flex justify-content-between">
+            <vue-github
+              text=""
+              showCalendar=true
+              username="emdupre"
+            />
+          </div>
         </b-col>
         <b-col>
-          <p>
-            Additionally, I'm actively involved in contributing to open source projects.
-          </p>
+          <div class="d-flex justify-content-between">
+            <p>
+              Additionally, I'm actively involved in contributing to open source projects.
+            </p>
+          </div>
         </b-col>
       </b-row>
     </div>

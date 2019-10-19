@@ -2,8 +2,8 @@
   <div class="container-fluid">
     <ul>
       <b-list-group v-if="pub">
-        <b-row>
-        <b-col cols="9">
+        <b-row align-h="between">
+        <b-col cols="10">
         <div class="d-flex justify-content-between">
           <a class="mb-1" :href="pub['url']['value']" target="_blank">
             {{ pub['title']['title']['value'] }}
@@ -24,8 +24,8 @@
         </p>
         </div>
         </b-col>
-        <b-col cols="3">
-          <div>
+        <b-col cols="2" align-self="center">
+          <div class="d-flex float-right">
           <span class="__dimensions_badge_embed__"
             :data-doi="doi"
             data-style="small_circle"
@@ -71,7 +71,7 @@ export default {
       const proxy =
         this.proxy ||
         function(url) {
-          return "https://cors-anywhere.herokuapp.com/" + url;
+          return "https://urlreq.appspot.com/req?method=GET&url=" + url;
         };
       fetch(proxy(`https://api.crossref.org/works/${doi}`), options)
       .then((resp) => resp.json())
