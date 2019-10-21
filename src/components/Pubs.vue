@@ -1,20 +1,38 @@
 <template>
   <div id="Pubs" class="pub-content">
-    <ul>
-      <div v-if="loading" class="d-flex justify-content-center mb-3">
-        <b-spinner variant="primary"></b-spinner>
-      </div>
-      <div v-else class="container-fluid">
-        <b-list-group>
-          <b-list-group-item v-for="(work, index) in works" :key="index">
-            <PubItem
-            :pub="work['work-summary'][0]"
-            :doi="work['work-summary'][0]['external-ids']['external-id'][0]['external-id-value']">
-            </PubItem>
-          </b-list-group-item>
-        </b-list-group>
-      </div>
-    </ul>
+    <div v-if="loading" class="d-flex justify-content-center mb-3">
+      <b-spinner variant="primary"></b-spinner>
+    </div>
+    <div v-else class="container-fluid">
+      <h3>Journal Articles</h3>
+      <b-list-group>
+        <b-list-group-item v-for="(work, index) in works" :key="index">
+          <PubItem
+          :pub="work['work-summary'][0]"
+          :doi="work['work-summary'][0]['external-ids']['external-id'][0]['external-id-value']">
+          </PubItem>
+        </b-list-group-item>
+      </b-list-group>
+      <br />
+      <h3>Book Chapters</h3>
+      <b-list-group>
+        <b-list-group-item>
+          <b-row align-h="between">
+            <b-col cols="12">
+              <div class="d-flex justify-content-between">
+                <a class="mb-1" href="http://dx.doi.org/10.1093/oxfordhb/9780190464745.013.5" target="_blank">
+                  Rumination Is a Sticky Form of Spontaneous Thought
+                </a>
+              </div>
+                <span><span style="text-decoration:underline; color:black">E DuPre</span>, R Spreng.</span>
+              <p class="mb-1">
+                <small>The Oxford Handbook of Spontaneous Thought: Mind-Wandering, Creativity, and Dreaming (2018)</small>
+              </p>
+            </b-col>
+          </b-row>
+        </b-list-group-item>
+      </b-list-group>
+    </div>
   </div>
 </template>
 
