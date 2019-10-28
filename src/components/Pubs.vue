@@ -1,10 +1,10 @@
 <template>
-  <div id="Pubs" class="pub-content">
+  <b-container fluid id="pubs">
     <div v-if="loading" class="d-flex justify-content-center mb-3">
       <b-spinner variant="primary"></b-spinner>
     </div>
     <div v-else class="container-fluid">
-      <h3>Journal Articles</h3>
+      <h5>Journal Articles</h5>
       <b-list-group>
         <b-list-group-item v-for="(work, index) in works" :key="index">
           <PubItem
@@ -14,7 +14,7 @@
         </b-list-group-item>
       </b-list-group>
       <br />
-      <h3>Book Chapters</h3>
+      <h5>Book Chapters</h5>
       <b-list-group>
         <b-list-group-item>
           <b-row align-h="between">
@@ -33,7 +33,7 @@
         </b-list-group-item>
       </b-list-group>
     </div>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -78,15 +78,4 @@ export default {
 </script>
 
 <style>
-/* ===================================
-publications
-==================================== */
-.pub-content {
-    background:transparent;
-    position:relative;
-    margin-left:10px;
-    margin-bottom: 10px;
-    padding:40px 60px 0px 0px;
-}
-
 </style>
