@@ -10,17 +10,19 @@
       <b-col align-self="center" class="mr-md-5">
           <h2>Elizabeth DuPre</h2>
           <p>
-            Hi, I'm Elizabeth! I'm a PhD candidate in the
-            <a href="//www.mcgill.ca/neuro/neuro-brain-research-patient-care-and-training"
+            Hi, I'm Elizabeth! I'm a PhD candidate working in the
+            <a href="//www.mcgill.ca/neuro/"
                 target="_blank">
-              Montreal Neurological Institute
+              Montr&eacute;al Neurological Institute
             </a> at
             <a href="//www.mcgill.ca/" target="_blank">McGill University</a>.
           </p>
           <p>
-            For more information, please see my
-            <a href="/#/pubs">publications</a> and
-            <a href="/#/cv">curriculum vitae (CV)</a>.
+          Learn more about my
+          <a href="/#/about">research program</a>, 
+          find my
+          <a href="/#/pubs">publications</a>, or view my
+          <a href="/#/cv">curriculum vitae (CV)</a>.
           </p>
           <hr>
           <div class="social">
