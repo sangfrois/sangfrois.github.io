@@ -1,19 +1,16 @@
-# bloom :hibiscus:
+# emdupre.github.io
 
-🚧 This repository is currently under construction 🚧
-
-Please check back soon.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/046fe6fc-fb5e-441c-9f3d-e334bf5809fd/deploy-status)](https://app.netlify.com/sites/emdupre/deploys)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ---
 
-This (will be) a template repository for an academic website,
-where your publications are automatically populated from an [ORCID](https://orcid.org/about).
+This is my personal website built using [BootstrapVue](https://bootstrap-vue.js.org/), [Font Awesome](http://fontawesome.io/), and [Academicons](http://jpswalsh.github.io/academicons/).
 
-> A Vue.js project
+For now, I've mirror the publication-fetching functionality of [Bloom](https://github.com/emdupre/bloom) :hibiscus:.
+Eventually this code should be stripped and replaced with an additional npm dependency once Bloom is packaged.
 
-Built using [BootstrapVue](https://bootstrap-vue.js.org/), [Font Awesome](http://fontawesome.io/), and [Academicons](http://jpswalsh.github.io/academicons/).
-
-## Build Setup
+## Local development guide
 
 ``` bash
 # install dependencies
