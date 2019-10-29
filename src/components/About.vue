@@ -11,8 +11,8 @@
         under the supervision of 
         <a href="//ludmercentre.ca/dr-jean-baptiste-poline/" target="_blank">
             Dr. Jean-Baptiste Poline</a>.
-        My current research focuses on improving the inferences we can draw with high-dimensional, naturalistic datasets
-        by both developing open source analytic tools as well as benchmarking emerging methods.
+        My current research focuses on improving the inferences we can draw with high-dimensional, naturalistic datasets.
+        To do this, I am benchmarking emerging methods and developing open source tools to improve reproducible workflows.
     </p>
     <p>
         I have a background in cognitive neuroscience, with Bachelor's and Master's degrees in 
