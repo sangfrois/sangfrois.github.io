@@ -19,7 +19,7 @@
           </p>
           <p>
           Learn more about my
-          <a href="/#/about">research program</a>, 
+          <a href="/#/about">research program</a>,
           find my
           <a href="/#/pubs">publications</a>, or view my
           <a href="/#/cv">curriculum vitae (CV)</a>.
@@ -48,7 +48,7 @@
 <script>
 </script>
 
-<style> 
+<style>
 
 @import '../assets/fontawesome/css/all.css';
 @import '../assets/academicons/css/academicons.css';
@@ -76,11 +76,12 @@ a.orcid:hover {
 }
 
 img.head-shot{
-    width:100%;
-    max-width:400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin: auto;
+  width: 375px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 div.social {
