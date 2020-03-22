@@ -78,8 +78,8 @@ a.orcid:hover {
 img.head-shot{
   display: block;
   margin: auto;
-  width: 375px;
-  height: 375px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -87,6 +87,16 @@ img.head-shot{
 div.social {
     display: flex;
     justify-content: space-between;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 </style>

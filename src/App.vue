@@ -65,6 +65,16 @@ textarea {
   line-height: inherit;
 }
 
+nav a{
+  font-size: 1.5em;
+}
+
+.navbar-brand {
+  font-family: 'Ikota Web', sans-serif;
+  font-weight: lighter;
+  font-size: 1.75rem;
+}
+
 footer{
   padding: 2% 0 0 0
 }
