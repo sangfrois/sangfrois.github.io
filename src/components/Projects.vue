@@ -7,14 +7,13 @@
             <vue-github
               text=""
               showCalendar=true
-              username="emdupre"
+              username="sangfrois"
             />
           </div>
         </b-col>
         <b-col>
           <div class="d-flex justify-content-between">
             <p>
-              Additionally, I'm actively involved in contributing to open source projects.
             </p>
           </div>
         </b-col>
@@ -37,13 +36,11 @@ export default {
     return {
       showCalendar: true,
       text: "",
-      username: "emdupre"
-    };
-  }
+      username: "sangfrois"
+      };
+   }
 };
-
 </script>
-
 <style>
-  @import url("https://unpkg.com/vue-github@0.10.7/dist/vueGithub.css");
+   @import url("https://unpkg.com/vue-github@0.10.7/dist/vueGithub.css");
 </style>

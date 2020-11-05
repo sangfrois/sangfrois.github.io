@@ -8,14 +8,9 @@
       </b-col>
       <!-- Landing text, cross-platform links -->
       <b-col align-self="center" class="mr-md-5">
-          <h2>Elizabeth DuPre</h2>
+          <h2>François Lespinasse</h2>
           <p>
-            Hi, I'm Elizabeth! I'm a PhD candidate working in the
-            <a href="//www.mcgill.ca/neuro/"
-                target="_blank">
-              Montr&eacute;al Neurological Institute
-            </a> at
-            <a href="//www.mcgill.ca/" target="_blank">McGill University</a>.
+	        Hi ! Do not hesitate to reach out to me, please!
           </p>
           <p>
           Learn more about my
@@ -27,17 +22,14 @@
           <hr>
           <div class="social">
             <p>
-            <a href="//github.com/emdupre" title="Fork me on GitHub" class=github>
+            <a href="//github.com/sangfrois" title="Fork me on GitHub" class=github>
             <i class="fab fa-github fa-2x"></i></a>
 
-            <a href="//twitter.com/emdupre_" title="Follow me on Twitter" class=twitter>
+            <a href="//twitter.com/franclespinas" title="Follow me on Twitter" class=twitter>
             <i class="fab fa-twitter fa-2x"></i></a>
 
-            <a href="//orcid.org/0000-0003-1358-196X" title="View my ORCID profile" class=orcid>
+            <a href="//orcid.org/0000-0002-6897-2119" title="View my ORCID profile" class=orcid>
             <i class="ai ai-orcid ai-2x"></i></a>
-
-            <a href="//scholar.google.ca/citations?user=9FzK0bcAAAAJ&hl=en" title="View my Google Scholar profile" class=google>
-            <i class="ai ai-google-scholar ai-2x"></i></a>
             </p>
           </div>
       </b-col>

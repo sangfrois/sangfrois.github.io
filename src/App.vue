@@ -2,7 +2,11 @@
   <div id="app">
     <b-navbar toggleable="md" type="light" variant="light">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand to="/" exact> Elizabeth DuPre </b-navbar-brand>
+      <b-navbar-brand to="/" exact><a class="navbar-brand" href="static/favicon-32x32"><img src="static/favicon-32x32.png"></a>
+      François Lespinasse  
+      <a class="navbar-brand" href="static/favicon-32x32"><img src="static/favicon-32x32.png"></a>
+      
+      </b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
         <!--  Here are links to different routes  -->
@@ -23,7 +27,7 @@
     <footer>
         <div class="fluid-container footer">
           <p class="text-center">
-            © Elizabeth DuPre 2019
+            © François Lespinasse 2020
           </p>
         </div>
     </footer>

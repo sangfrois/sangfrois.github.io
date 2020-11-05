@@ -1,4 +1,9 @@
 <template>
+<b-container class="p-md-3" id="bio">
+    <h3>This still has to be prepared. Please find the information in my CV</h3>
+</b-container>
+</template>
+<!-- <template>
   <b-container fluid id="pubs">
     <div v-if="loading" class="d-flex justify-content-center mb-3">
       <b-spinner variant="primary"></b-spinner>
@@ -76,6 +81,6 @@ export default {
   },
 };
 </script>
-
+--!>
 <style>
 </style>
