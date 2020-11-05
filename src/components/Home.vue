@@ -13,8 +13,8 @@
 	        Hi ! Do not hesitate to reach out to me, please!
           </p>
           <p>
-          Learn more about my
-          <a href="/#/about">research program</a>,
+          Learn more about my 
+          <a href="/#/about">research and my self</a>,
           find my
           <a href="/#/pubs">publications</a>, or view my
           <a href="/#/cv">curriculum vitae (CV)</a>.
