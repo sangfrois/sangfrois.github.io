@@ -1,8 +1,9 @@
 {
   "name": "vue-site",
+  "homepage":".",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "emdupre <emd222@cornell.edu>",
+  "author": "francois lespinasse <francois.lespinasse96@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
