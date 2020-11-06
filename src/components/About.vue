@@ -3,7 +3,7 @@
     <h3>What I do, who I am</h3>
 
     <p>
-    <b><i>I'm a proud psychonaut and a blunt charlatan. Je veux sortir des chemins battus.</i></b>
+    <b><i>I'm a young neuropsychologist in training who likes everything about life!</i></b>
     <p>
     <b>||</b> My research consists in developing methods to capture underlying autonomic activity in subjective experiences (i.e. predominantly emotional states).
     </p>
