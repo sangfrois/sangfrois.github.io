@@ -3,9 +3,9 @@
     <b-navbar toggleable="md" type="light" variant="light">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-navbar-brand to="/" exact><a class="navbar-brand" href="static/favicon-32x32"><img src="static/favicon-32x32.png"></a>
-      François Lespinasse  
+      François Lespinasse
       <a class="navbar-brand" href="static/favicon-32x32"><img src="static/favicon-32x32.png"></a>
-      
+
       </b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
